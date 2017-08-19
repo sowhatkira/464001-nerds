@@ -5,8 +5,118 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class='main-header'>
+      <nav class='main-navigation'>
+        <a class='main-header-logo'>
+          <img src='http://placehold.it/150x100' alt='Логотип компании Нёрдс'>
+        </a>
+        <ul class='site-navigation'>
+          <li>Студия</li>
+          <li>Клиенты</li>
+          <li>Магазин</li>
+          <li>Контакты</li>
+        </ul>
+        <ul class='user-navigation'>
+          <li>Корзина</li>
+        </ul>
+      </nav>
+    </header>
+    <main class='container'>
+      <h1 class='visually-hidden'>Веб-студия Нёрдз</h1>
+      <div class="wrapper">
+  	    <input type="radio" name="point" id="slide1" checked>
+  	    <input type="radio" name="point" id="slide2">
+  	    <input type="radio" name="point" id="slide3">
+  	    <input type="radio" name="point" id="slide4">
+  	    <input type="radio" name="point" id="slide5">
+  	      <div class="slider">
+  		        <div class="slides slide1"><img src='http://placehold.it/500x400' alt='Картинка 1'></div>
+  		        <div class="slides slide2"></div>
+  		        <div class="slides slide3"></div>
+  		        <div class="slides slide4"></div>
+  		        <div class="slides slide5"></div>
+  	      </div>
+  	      <div class="controls">
+  		        <label for="slide1"></label>
+  		        <label for="slide2"></label>
+  		        <label for="slide3"></label>
+  		        <label for="slide4"></label>
+          </div>
+      </div>
+      <section class='services'>
+        <h2 class=visually-hidden>Услуги</h2>
+        <ul class='services-list'>
+          <li class='service-item'>
+            <h3>Веб-сайты</h3>
+              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                <a href='new_window.html'>Заказать</a>
+          </li>
+          <li class='service-item'>
+            <h3>Приложения</h3>
+              <p>Покорите ТОП-10 приложений в Appstore и Google Play</p>
+                <a href='new_window.html'>Заказать</a>
+          </li>
+          <li class='service-item'>
+            <h3>Презентации</h3>
+              <p>Вы даже не представляете, насколько вы изумительны!</p>
+                <a href='new_window.html'>Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <section class='about-us'>
+        <h2>О компании</h2>
+        <p class='quote'>Мы — маленькая, но гордая студия из Краснодара.</p>
+        <p class='text'>Исповедуем принципы минимализма и чистоты.
+        Ставим математический расчёт превыше креатива.
+        Работаем, не покладая рук, как роботы.</p>
+        <p class='text-title'>Выполняем заказы на разработку:</p>
+        <ul>
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </section>
+      <section class='advantages'>
+        <div class='happy-logo'>
+          <img src='http://placehold.it/250x200' alt='Логотип компании Нёрдс'>
+        </div>
+        <table>
+          <caption>С 2004 года любим точность во всём:</caption>
+          <tr>
+            <td>146<sup class='about-us'>%</sup></td>
+            <td>100<sup class='about-us'>%</sup></td>
+            <td>50<sup class='about-us'>%</sup></td>
+          </tr>
+          <tr>
+            <td>Уровень самоотдачи</td>
+            <td>Соблюдение сроков</td>
+            <td>Минимальная предоплата</td>
+          </tr>
+        </table>
+      </section>
+      <hr>
+      <section class='partners'>
+        <h2 class='visually-hidden'>Партнёры</h2>
+        <ul>
+          <li><div class='item'><img src='http://placehold.it/150x100' alt='HTML Academy'></div></li>
+          <li><div class='item'><img src='http://placehold.it/150x100' alt='Барбершоп Бородинский'></div></li>
+          <li><div class='item'><img src='http://placehold.it/150x100' alt='PINK'></div></li>
+          <li><div class='item'><img src='http://placehold.it/150x100' alt='Mishka'></div></li>
+        </ul>
+      </section>
+    </main>
+    <footer class='main-footer'>
+      <section class='map'>
+        Map
+      </section>
+      <section class='social-networks'>
+        <ul>
+          <li><a href='vk.com'><img src='http://placehold.it/50x50' alt='Вконтакте'></a></li>
+          <li><a href='facebook.com'><img src='http://placehold.it/50x50' alt='Facebook'></a></li>
+          <li><a href='instagram.com'><img src='http://placehold.it/50x50' alt='Instagram'></a></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
