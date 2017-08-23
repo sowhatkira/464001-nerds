@@ -30,7 +30,17 @@
       <form class="filter" method="get" action="#">
       <fieldset>
         <legend>Стоимость</legend>
-        <!---> Не знаю, как это сделать. https://htmlacademy.ru/courses/67/run/3 <--->
+        <div class="range-filter">
+            <div class="range-controls">
+                <div class="scale"><div style="margin-left:50px;width:100px;" class="bar"></div></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="15 000">
+            </div>
+        </div>
       </fieldset>
       <fieldset>
         <legend>Сетка</legend>
