@@ -2,18 +2,18 @@ body {
   font-family: Roboto;
   color: #000000;
 }
-h1 .h1-catalog {
+h1.h1-catalog {
   font-size: 55pt;
   font-weight: medium;
   line-height: 55pt;
 
 }
-h3 .services {
+h3.services {
   font-size: 24pt;
   font-weight: bold;
   line-height: 30pt;
 }
-h3 .h3-catalog {
+h3.h3-catalog {
   font-size: 18pt;
   font-weight: bold;
   line-height: 30pt;
