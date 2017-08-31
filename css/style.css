@@ -3,18 +3,18 @@ body {
   color: #000000;
 }
 h1.h1-catalog {
-  font-size: 55pt;
+  font-size: 55px;
   font-weight: medium;
-  line-height: 55pt;
+  line-height: 55px;
 
 }
 h3.services {
-  font-size: 24pt;
+  font-size: 24px;
   font-weight: bold;
-  line-height: 30pt;
+  line-height: 30px;
 }
 h3.h3-catalog {
-  font-size: 18pt;
+  font-size: 18px;
   font-weight: bold;
-  line-height: 30pt;
+  line-height: 30px;
 }
